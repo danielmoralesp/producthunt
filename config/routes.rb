@@ -6,7 +6,9 @@ Rails.application.routes.draw do
 
   post "products", to: 'products#create'
 
-  get '/products/:id', to: 'products#show'
+  get '/products/:id', to: 'products#show', as: 'product'
+
+  get '/products/:id/edit', to: 'products#edit'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
