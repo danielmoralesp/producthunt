@@ -29,6 +29,9 @@ gem 'bcrypt', '~> 3.1.7'
 # Gema de Gravatar
 gem 'gravatar-ultimate'
 
+# Gema de Validaciones
+gem 'annotate'
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 
