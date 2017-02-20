@@ -36,6 +36,9 @@ gem 'annotate'
 gem "paperclip", "~> 4.3"
 gem 'aws-sdk', '< 2.0'
 
+# Gema para manejo de informacion sensible en Variables de Entorno
+gem 'figaro'
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 
