@@ -32,6 +32,9 @@ gem 'gravatar-ultimate'
 # Gema de Validaciones
 gem 'annotate'
 
+# Gema para imagenes
+gem "paperclip", "~> 4.3"
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 
